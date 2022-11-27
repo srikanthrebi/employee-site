@@ -1,0 +1,146 @@
+/* ---- Header style -------*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+.top-header{
+    background-color: #670099;
+}
+p{
+    font-size: 14px;
+    line-height: 20px;
+    text-transform: capitalize;
+}
+.nav-head .navbar-nav .nav-item .nav-link:hover{
+   color: #fff;
+   background-color: #000;
+}
+.nav-head .navbar-nav .nav-item .nav-link:active{
+   color: #fff;
+   background-color: #000;
+}
+.nav-head .nav-link.active{
+   color: #fff;
+   background-color: #000;
+}
+ /* -------side-bar-style-------- */
+ .side-bar{
+    background-color: rgb(216 216 216 / 81%);
+    height: 100vh;
+    overflow: hidden;
+    overflow-y: auto;
+    position: sticky;
+    top: 0;
+    padding: 30px 30px;
+ }
+ /* width */
+ .side-bar::-webkit-scrollbar {
+    width: 4px;
+  }
+  
+/* Track */
+.side-bar::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+  
+/* Handle */
+.side-bar::-webkit-scrollbar-thumb {
+background:#670099;
+border-radius: 10px;
+}
+  
+/* Handle on hover */
+.side-bar::-webkit-scrollbar-thumb:hover {
+background: #555;
+}
+
+
+ .list{
+    padding: 0;
+ }
+ .list:first-child{
+    color: black;
+ }
+ .list li{
+    list-style: none;
+    line-height: 2;
+    color: #000;
+    font-weight: 700;
+    font-size: 16px;
+ }
+ .list li a{
+    text-decoration: none;
+    color: #777;
+    /* white-space: nowrap; */
+    font-weight: 400;
+    font-size: 14px;
+    
+ }
+ .list li a:hover{
+    color: #000;
+ }
+ /* ------------main-content-style---------- */
+ .main-content{
+    border-bottom: solid 1px #ccc;
+    padding-bottom: 30px;
+    margin-bottom: 60px;;
+ }
+ .main-content ul li{
+    padding-bottom: 10px;
+    font-size: 14px;
+    /* text-transform: capitalize; */
+ }
+ .main-content ol li{
+    padding-bottom: 10px;
+    font-size: 14px;
+    list-style-type: lower-alpha;
+    /* text-transform: capitalize; */
+ }
+ .main-content ol li::marker{
+    color: #000;
+    font-weight: 600;
+    font-size: 16px;
+ }
+ /* .main-content .number ol li{
+    padding-bottom: 10px;
+    font-size: 14px;
+    list-style-type:decimal;
+ } */
+ .intro h1{
+    color: #000;
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    /* text-transform: capitalize; */
+ }
+ .intro h3,h2{
+    margin-top: 25px;
+    color: #000;
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-transform: capitalize;
+ }  
+ .intro h4{
+   margin-top: 15px;
+   color: #000;
+   font-size: 1.3rem;
+   font-weight: 500;
+   margin-bottom: 15px;
+ }
+ /* ----------------------policy------------------------- */
+ .nav-item {
+   padding: 0 15px;
+ }
+ .nav-item a {
+   text-decoration: none;
+   color: white;     
+ }
+ .dropdown-menu a {
+   text-decoration: none;
+   color:#670099;     
+ }
