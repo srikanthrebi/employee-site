@@ -8,20 +8,21 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="css/bootstrap.min.css">
-        <link rel="stylesheet" href="css/style.css">
-        <script src="js/fontawesome.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
 </head>
 <body>
     <nav class="  top-header navbar-expand-lg">
         <div class="container">
           <div class="row align-items-center">
-            <div class="col-lg-6">
-              <a class="navbar-brand" href=""><img src="image/fabevy-logo.png" class="d-inline-block align-text-top"></a>
+            <div class="col-lg-6 col-sm-6 col-md-6 col-6">
+              <a class="navbar-brand" href="index.html"><img src="image/fabevy-logo.png" class="d-inline-block align-text-top"></a>
          
           
             </div>
-            <div class="col-lg-6">
+            <div class="col-lg-6 col-sm-6 col-md-6 col-6">
               <div class="nav-head">
                 <ul class="navbar-nav justify-content-end ">
                   <li class="nav-item">
@@ -58,7 +59,11 @@
     <section class="main">
         <div class="container">
             <div class="row">
-                <div class="col-lg-3">
+                <div class="col-lg-3 col-sm-3 col-md-3 col-3 d-none d-md-block d-lg-block main-bar" id="main-bar">
+                  <div class="icon d-lg-none" id="icon">
+                    <i class="fa fa-bars active" id="open-icon" aria-hidden="true"></i>
+                    <i class="fa fa-times " id="close-icon" aria-hidden="true"></i>
+                  </div>
                     <div class="side-bar">
                         <div class="side-bar-nav">
                             <ul class="list">
@@ -72,7 +77,7 @@
                     </div>
 
                 </div>
-                <div class="col-lg-9">
+                <div class="col-lg-9 col-sm-12 col-md-12 col-12 left-side">
                     <div class="main-content">
                         <div class="intro">
                             <div>
@@ -122,25 +127,24 @@
     </section>
  <!-- -----------------------------footer-section---------------------- -->
  <footer class="footer-sec">
-    <div class="container">
-      <div class="row align-items-center">
-        <div class="col-lg-8">
-          <div class="copy-right">
-            <p><a href="http://www.fabevy.com" target="_blank">© Copyright 2022 Fabevy Technologies</a>All Rights Reserved.</p>
-          </div>
+  <div class="container">
+    <div class="row  text-center align-items-center">
+      <div class="col-lg-8 col-sm-8 col-md-8 col-12 text-lg-start">
+        <div class="copy-right">
+          <p><a href="http://www.fabevy.com" target="_blank">© Copyright 2023 Fabevy Technologies All Rights Reserved.</a></p>
         </div>
-        <div class="col-lg-4">
-          <div class="social-media">
-            <a target="_blank" href="https://www.instagram.com/fabevy"><i class="fa fa-instagram" aria-hidden="true"></i> </a>
-            <a target="_blank" href="https://www.facebook.com/fabevy"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-            <a target="_blank" href="https://www.linkedin.com/company/fabevy"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-          </div>
+      </div>
+      <div class="col-lg-4 col-md-4 col-sm-8 col-12 text-end">
+        <div class="social-media">
+          <a target="_blank" href="https://www.instagram.com/fabevy"><i class="fa fa-instagram" aria-hidden="true"></i> </a>
+          <a target="_blank" href="https://www.facebook.com/fabevy"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+          <a target="_blank" href="https://www.linkedin.com/company/fabevy"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
         </div>
       </div>
     </div>
-  </footer>
-  
-
-    <script src="js/bootstrap.bundle.min.js"></script>
+  </div>
+</footer>
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/main.js"></script>
 </body>
 </html>
