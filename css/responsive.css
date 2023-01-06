@@ -5,11 +5,7 @@
     .navbar-nav{
         flex-direction: row !important;
     }
-    .navbar-nav .nav-link{
-        padding-left: 10px !important;
-        padding-right: 10px !important;
-    }
-  
+   
 }
 @media(max-width:576px){
     .container{
@@ -21,11 +17,7 @@
     /* .left-side{
         padding-left: 0px;
     } */
-    .navbar-nav .nav-link{
-        padding-left: 10px !important;
-        padding-right: 10px !important;
-    }
-    .navbar-brand{
+     .navbar-brand{
         display: block;
         width: 30px;
         overflow: hidden;
