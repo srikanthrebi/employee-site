@@ -5,6 +5,7 @@
     .navbar-nav{
         flex-direction: row !important;
     }
+  
    
 }
 @media(max-width:576px){
@@ -24,6 +25,7 @@
     }
     .social-media{
         justify-content: center !important;
+        padding-bottom: 15px;
     }
 }
 @media(min-width:768px) and (max-width:992px){
